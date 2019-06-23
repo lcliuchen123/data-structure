@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="" />
+    <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hfman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,34 +16,43 @@
     <session id="755838995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="md" value="2" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="Markdown" value="2" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="172" />
-          <entry key="py" value="8565" />
+          <entry key="Python Console" value="247" />
+          <entry key="md" value="97" />
+          <entry key="py" value="15719" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="8737" />
+          <entry key="Markdown" value="97" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Python" value="15966" />
         </counts>
       </usages-collector>
     </session>
@@ -52,8 +65,8 @@
             <state relative-caret-position="990">
               <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding>
-                <marker date="1556503218311" expanded="true" signature="67:72" ph="..." />
-                <marker date="1556503218311" expanded="true" signature="519:524" ph="..." />
+                <marker date="1561025697779" expanded="true" signature="67:72" ph="..." />
+                <marker date="1561025697779" expanded="true" signature="519:524" ph="..." />
               </folding>
             </state>
           </provider>
@@ -65,10 +78,10 @@
             <state relative-caret-position="3270">
               <caret line="109" selection-start-line="109" selection-end-line="109" />
               <folding>
-                <marker date="1556506814993" expanded="true" signature="40:104" ph="..." />
-                <marker date="1556506814993" expanded="true" signature="958:963" ph="..." />
-                <marker date="1556506814993" expanded="true" signature="1872:1877" ph="..." />
-                <marker date="1556506814993" expanded="true" signature="2332:2337" ph="..." />
+                <marker date="1561025697759" expanded="true" signature="40:104" ph="..." />
+                <marker date="1561025697759" expanded="true" signature="958:963" ph="..." />
+                <marker date="1561025697759" expanded="true" signature="1872:1877" ph="..." />
+                <marker date="1561025697759" expanded="true" signature="2332:2337" ph="..." />
               </folding>
             </state>
           </provider>
@@ -77,10 +90,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="1980">
+              <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
               <folding>
-                <marker date="1556510884262" expanded="true" signature="32:37" ph="..." />
+                <marker date="1561197227636" expanded="true" signature="32:37" ph="..." />
+                <marker date="1561197227636" expanded="true" signature="986:1322" ph="..." />
               </folding>
             </state>
           </provider>
@@ -89,29 +103,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cengci_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="150" column="29" lean-forward="true" selection-start-line="146" selection-end-line="150" selection-end-column="29" />
+            <state relative-caret-position="4080">
+              <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
               <folding>
-                <marker date="1561001706477" expanded="true" signature="28:33" ph="..." />
+                <marker date="1561025697769" expanded="true" signature="28:33" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1770">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <marker date="1561258452236" expanded="true" signature="17:22" ph="..." />
+                <marker date="1561258452236" expanded="true" signature="152:157" ph="..." />
+                <marker date="1561258452236" expanded="true" signature="457:462" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hfman.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
+              <folding>
+                <marker date="1561257794326" expanded="true" signature="52:255" ph="..." />
+                <marker date="1561257794326" expanded="true" signature="254:255" ph="..." />
+                <marker date="1561257794326" expanded="true" signature="982:1754" ph="..." />
+                <marker date="1561257794326" expanded="true" signature="1585:1754" ph="..." />
+                <marker date="1561257794326" expanded="true" signature="3276:3285" ph="..." />
+                <marker date="1561257794326" expanded="true" signature="3455:3497" ph="..." />
+                <marker date="1561257794326" expanded="true" signature="4132:4140" ph="..." />
+                <marker date="1561257794326" expanded="true" signature="4132:4472" ph="..." />
+                <marker date="1561257794326" expanded="true" signature="4802:5144" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="93" column="18" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
-              <folding>
-                <marker date="1561013199919" expanded="true" signature="17:22" ph="..." />
-                <marker date="1561013199919" expanded="true" signature="152:157" ph="..." />
-                <marker date="1561013199919" expanded="true" signature="457:462" ph="..." />
-                <marker date="1561013199919" expanded="true" signature="937:1042" ph="..." />
-                <marker date="1561013199919" expanded="true" signature="1183:1188" ph="..." />
-                <marker date="1561013199919" expanded="true" signature="1324:1329" ph="..." />
-                <marker date="1561013199919" expanded="true" signature="1851:1860" ph="..." />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -125,22 +167,34 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>root is null</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/knn.py" />
         <option value="$PROJECT_DIR$/Kmeans.py" />
-        <option value="$PROJECT_DIR$/sort.py" />
         <option value="$PROJECT_DIR$/cengci_search.py" />
+        <option value="$PROJECT_DIR$/sort.py" />
         <option value="$PROJECT_DIR$/tree.py" />
+        <option value="$PROJECT_DIR$/hfman.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -175,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tree">
+  <component name="RunManager" selected="Python.hfman">
     <configuration name="cengci_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,6 +243,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cengci_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hfman" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hfman.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,12 +318,14 @@
       <item itemvalue="Python.sort" />
       <item itemvalue="Python.cengci_search" />
       <item itemvalue="Python.tree" />
+      <item itemvalue="Python.hfman" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hfman" />
         <item itemvalue="Python.tree" />
-        <item itemvalue="Python.cengci_search" />
         <item itemvalue="Python.sort" />
+        <item itemvalue="Python.cengci_search" />
       </list>
     </recent_temporary>
   </component>
@@ -263,18 +340,27 @@
       <option name="presentableId" value="Default" />
       <updated>1556501989620</updated>
     </task>
+    <task id="LOCAL-00001" summary="更新readme">
+      <created>1561258564933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561258564933</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13392857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12648809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29016393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.500821" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,7 +368,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.31639344" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.31527093" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -291,14 +377,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新readme" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/knn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
-            <marker date="1556503218311" expanded="true" signature="67:72" ph="..." />
-            <marker date="1556503218311" expanded="true" signature="519:524" ph="..." />
+            <marker date="1561025697779" expanded="true" signature="67:72" ph="..." />
+            <marker date="1561025697779" expanded="true" signature="519:524" ph="..." />
           </folding>
         </state>
       </provider>
@@ -308,47 +398,72 @@
         <state relative-caret-position="3270">
           <caret line="109" selection-start-line="109" selection-end-line="109" />
           <folding>
-            <marker date="1556506814993" expanded="true" signature="40:104" ph="..." />
-            <marker date="1556506814993" expanded="true" signature="958:963" ph="..." />
-            <marker date="1556506814993" expanded="true" signature="1872:1877" ph="..." />
-            <marker date="1556506814993" expanded="true" signature="2332:2337" ph="..." />
+            <marker date="1561025697759" expanded="true" signature="40:104" ph="..." />
+            <marker date="1561025697759" expanded="true" signature="958:963" ph="..." />
+            <marker date="1561025697759" expanded="true" signature="1872:1877" ph="..." />
+            <marker date="1561025697759" expanded="true" signature="2332:2337" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="1980">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
           <folding>
-            <marker date="1556510884262" expanded="true" signature="32:37" ph="..." />
+            <marker date="1561197227636" expanded="true" signature="32:37" ph="..." />
+            <marker date="1561197227636" expanded="true" signature="986:1322" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cengci_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="150" column="29" lean-forward="true" selection-start-line="146" selection-end-line="150" selection-end-column="29" />
+        <state relative-caret-position="4080">
+          <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
           <folding>
-            <marker date="1561001706477" expanded="true" signature="28:33" ph="..." />
+            <marker date="1561025697769" expanded="true" signature="28:33" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="93" column="18" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+        <state relative-caret-position="1770">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
-            <marker date="1561013199919" expanded="true" signature="17:22" ph="..." />
-            <marker date="1561013199919" expanded="true" signature="152:157" ph="..." />
-            <marker date="1561013199919" expanded="true" signature="457:462" ph="..." />
-            <marker date="1561013199919" expanded="true" signature="937:1042" ph="..." />
-            <marker date="1561013199919" expanded="true" signature="1183:1188" ph="..." />
-            <marker date="1561013199919" expanded="true" signature="1324:1329" ph="..." />
-            <marker date="1561013199919" expanded="true" signature="1851:1860" ph="..." />
+            <marker date="1561258452236" expanded="true" signature="17:22" ph="..." />
+            <marker date="1561258452236" expanded="true" signature="152:157" ph="..." />
+            <marker date="1561258452236" expanded="true" signature="457:462" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hfman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
+          <folding>
+            <marker date="1561257794326" expanded="true" signature="52:255" ph="..." />
+            <marker date="1561257794326" expanded="true" signature="254:255" ph="..." />
+            <marker date="1561257794326" expanded="true" signature="982:1754" ph="..." />
+            <marker date="1561257794326" expanded="true" signature="1585:1754" ph="..." />
+            <marker date="1561257794326" expanded="true" signature="3276:3285" ph="..." />
+            <marker date="1561257794326" expanded="true" signature="3455:3497" ph="..." />
+            <marker date="1561257794326" expanded="true" signature="4132:4140" ph="..." />
+            <marker date="1561257794326" expanded="true" signature="4132:4472" ph="..." />
+            <marker date="1561257794326" expanded="true" signature="4802:5144" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

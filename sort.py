@@ -22,6 +22,7 @@ def sort2(nums):
             nums[i],nums[minIndex]=nums[minIndex],nums[i]
     return nums
 
+# 快速排序
 def sort3(nums,begin,end):
     if begin>=end:
         return
@@ -45,6 +46,28 @@ def sort3(nums,begin,end):
 
     return nums
 
+def sort4(l, start ,end):
+    if start >= end:
+        return
+    i= start
+    j= end - 1
+    tmp = l[start]
 
-nums=[1,2,5,3,4]
-print(sort3(nums,0,4))
+    while i<j:
+        while i<j and l[j] >= tmp:
+            j -= 1
+        l[i] = l[j]
+
+        while i<j and l[i] <= tmp:
+            i+= 1
+        l[j] = l[i]
+
+    l[i] = tmp
+    print(i,j)
+    sort4(l, 0, i)
+    sort4(l, j+1, end)
+
+    return l
+
+nums=[1,2,5,3,4,9,7,5,4]
+print(sort4(nums,0,9))

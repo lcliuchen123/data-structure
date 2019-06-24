@@ -52,9 +52,10 @@ class Priority_Que:
             self.siftdown(e, 0, len(elems))
         return e0
 
-q= Priority_Que([1,4,2,3])
-print(q.peek())
-print(q.queue())
-q.enqueue(5)
-print(q.elems)
-print(q.elems)
+if  __name__ == "__main__":
+    q= Priority_Que([1,4,2,3])
+    print(q.peek())
+    print(q.queue())
+    q.enqueue(5)
+    print(q.elems)
+    print(q.elems)

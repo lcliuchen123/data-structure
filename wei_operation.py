@@ -36,7 +36,7 @@ def search_only_once3(number_list):
         for number in number_list:
             count += (number >> i) & 1
         if count % 3 == 1:
-            result += 1 << i  #?????????????
+            result += 1 << i    #?????????????
 
     return result
 

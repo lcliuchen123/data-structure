@@ -1,5 +1,5 @@
 
-#各种位运算  &: 与 ^: 异或 相同为0，不同为1  >>:右移
+# 各种位运算  &: 与 ^: 异或 相同为0，不同为1  >>:右移
 
 def count_one(n):
     """count the number of 1 in binary of n

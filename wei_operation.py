@@ -36,7 +36,9 @@ def search_only_once3(number_list):
         for number in number_list:
             count += (number >> i) & 1
         if count % 3 == 1:
-            result += 1 << i    #?????????????
+            result += 1 << i    #?????????????相当于在满足条件的二进制位上加入1
+            print("i: ", i)
+            print("result: ", result)
 
     return result
 
@@ -44,5 +46,5 @@ def search_only_once3(number_list):
 if __name__ == "__main__":
     l= [4,4,1,2,2,5,5]
     print(search_only_once(l))
-    lis = {1, 1, 2, 3, 3, 3, 2, 2, 4, 1}
+    lis = [1,1,5,3,5,5,1,2,2,2]
     print(search_only_once3(lis))

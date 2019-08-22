@@ -1,5 +1,14 @@
 #！python3.7
 
+# 选择题,无论后面的列表有几个元素只返回第一个？？？？？？？？？？？？？
+# map函数也返回的是列表
+print(list(map(list,zip(*['a','b','c'],[1,2,3])))) #[[a,b,c,1]
+print(list(map(list,zip(*['a','b','c'],[1,2,3,4])))) #[[a,b,c,1]
+#后面列表为空，返回为空列表，如果不写返回元组列表
+print(list(zip(['a','b','c'],[]))) #[]
+print(list(zip(['a','b','c'],))) #[('a',), ('b',), ('c',)]
+
+
 #第一题：代码无错，但是漏算了几个表面积。所以只AC了0.18
 import sys
 import numpy as np

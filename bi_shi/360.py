@@ -1,28 +1,30 @@
-#第一题：代码无错，但是漏算了几个表面积。
-# import sys
-# import numpy as np
-#
-#
-# line = sys.stdin.readline().strip()
-# line = line.split()
-# n = int(line[0])
-# m = int(line[1])
-# array = np.zeros((n, m))
-# row_max = []
-# col_max = []
-# for i in range(n):
-#     line = sys.stdin.readline().strip()
-#     line = line.split()
-#     int_line = [int(x) for x in line]
-#     row_max.append(max(int_line))
-#     for j in range(m):
-#         array[i][j] = int_line[j]
-#
-# for j in range(m):
-#     col_max.append(max(array[:,j]))
-#
-# result = (sum(row_max)+sum(col_max)+n*m)*2
-# print(int(result))
+#！python3.7
+
+#第一题：代码无错，但是漏算了几个表面积。所以只AC了0.18
+import sys
+import numpy as np
+
+
+line = sys.stdin.readline().strip()
+line = line.split()
+n = int(line[0])
+m = int(line[1])
+array = np.zeros((n, m))
+row_max = []
+col_max = []
+for i in range(n):
+    line = sys.stdin.readline().strip()
+    line = line.split()
+    int_line = [int(x) for x in line]
+    row_max.append(max(int_line))
+    for j in range(m):
+        array[i][j] = int_line[j]
+
+for j in range(m):
+    col_max.append(max(array[:,j]))
+
+result = (sum(row_max)+sum(col_max)+n*m)*2
+print(int(result))
 
 #第二题
 # 在一个古老的国度，这个国家的人并不懂得进位，

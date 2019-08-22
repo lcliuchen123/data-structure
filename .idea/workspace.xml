@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bi_shi/秋招总结" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HFMAN_TREE.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HFMAN_TREE.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/HFMAN_TREE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kmeans.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/Kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Priotity_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/Priotity_queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cengci_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/cengci_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hfman.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hfman.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/hfman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/knn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/max_str_length.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/max_str_length.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/max_str_length.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/number.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_line.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/one_line.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/print_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/quick_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_expression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/re_expression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reorder_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/reorder_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse_linklist.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/reverse_linklist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/360.py" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/360.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/wang_yi.py" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/wang_yi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,39 +42,41 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csdn" value="4" />
+          <entry key="csdn" value="6" />
           <entry key="hard_problem" value="2" />
           <entry key="ipynb" value="3" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
           <entry key="py" value="32" />
           <entry key="python_to_database" value="1" />
+          <entry key="秋招总结" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="3" />
-          <entry key="Markdown" value="8" />
+          <entry key="Markdown" value="12" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="727" />
+          <entry key="Python Console" value="944" />
           <entry key="csdn" value="852" />
           <entry key="dummy" value="20" />
           <entry key="hard_problem" value="47" />
           <entry key="md" value="192" />
-          <entry key="py" value="25083" />
+          <entry key="py" value="25176" />
           <entry key="python_to_database" value="11" />
           <entry key="txt" value="60" />
+          <entry key="秋招总结" value="466" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1055" />
+          <entry key="Markdown" value="1521" />
           <entry key="PLAIN_TEXT" value="127" />
-          <entry key="Python" value="25810" />
+          <entry key="Python" value="26120" />
         </counts>
       </usages-collector>
     </session>
@@ -103,23 +85,45 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bi_shi/wang_yi.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1069">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bi_shi/360.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+            <state relative-caret-position="30">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#35#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lian_xi/re_expression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="124">
+                <caret line="5" column="31" selection-start-line="3" selection-end-line="5" selection-end-column="31" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -173,8 +177,10 @@
         <option value="$PROJECT_DIR$/csdn" />
         <option value="$PROJECT_DIR$/number.py" />
         <option value="$PROJECT_DIR$/max_str_length.py" />
-        <option value="$PROJECT_DIR$/bi_shi/360.py" />
         <option value="$PROJECT_DIR$/re_expression.py" />
+        <option value="$PROJECT_DIR$/bi_shi/wang_yi.py" />
+        <option value="$PROJECT_DIR$/bi_shi/360.py" />
+        <option value="$PROJECT_DIR$/bi_shi/秋招总结" />
       </list>
     </option>
   </component>
@@ -199,6 +205,16 @@
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="bi_shi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="bo_ke" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -462,8 +478,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11904762" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11904762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -476,7 +493,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32840723" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.2857143" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3136289" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3136289" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -575,16 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -689,16 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bi_shi/wang_yi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bi_shi/360.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csdn">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -711,8 +708,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lian_xi/re_expression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="30">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/wang_yi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/360.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#35#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="124">
+            <caret line="5" column="31" selection-start-line="3" selection-end-line="5" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bo_ke/csdn">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

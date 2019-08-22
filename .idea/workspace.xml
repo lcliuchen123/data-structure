@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bi_shi/秋招总结" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/秋招总结" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bi_shi/jing_dong.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bi_shi/自我介绍" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,17 +45,18 @@
           <entry key="hard_problem" value="2" />
           <entry key="ipynb" value="3" />
           <entry key="md" value="4" />
-          <entry key="py" value="34" />
+          <entry key="py" value="35" />
           <entry key="python_to_database" value="1" />
           <entry key="秋招总结" value="1" />
+          <entry key="自我介绍" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="3" />
           <entry key="Markdown" value="12" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="34" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -66,13 +69,14 @@
           <entry key="py" value="25342" />
           <entry key="python_to_database" value="11" />
           <entry key="txt" value="60" />
-          <entry key="秋招总结" value="597" />
+          <entry key="秋招总结" value="607" />
+          <entry key="自我介绍" value="432" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1652" />
-          <entry key="PLAIN_TEXT" value="127" />
+          <entry key="Markdown" value="1662" />
+          <entry key="PLAIN_TEXT" value="559" />
           <entry key="Python" value="26359" />
         </counts>
       </usages-collector>
@@ -101,16 +105,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <first_editor relative-caret-position="300">
+                <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bi_shi/自我介绍">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bi_shi/jing_dong.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -178,6 +196,8 @@
         <option value="$PROJECT_DIR$/bi_shi/wang_yi.py" />
         <option value="$PROJECT_DIR$/bi_shi/360.py" />
         <option value="$PROJECT_DIR$/bi_shi/秋招总结" />
+        <option value="$PROJECT_DIR$/bi_shi/jing_dong.py" />
+        <option value="$PROJECT_DIR$/bi_shi/自我介绍" />
       </list>
     </option>
   </component>
@@ -717,16 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="124">
-            <caret line="5" column="31" selection-start-line="3" selection-end-line="5" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bo_ke/csdn">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -742,6 +752,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="124">
+            <caret line="5" column="31" selection-start-line="3" selection-end-line="5" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/jing_dong.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/bi_shi/360.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -755,10 +778,17 @@
     <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <first_editor relative-caret-position="300">
+            <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/自我介绍">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bi_shi/jing_dong.py" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/jing_dong.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bi_shi/秋招总结" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/秋招总结" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
           <entry key="dummy" value="20" />
           <entry key="hard_problem" value="47" />
           <entry key="md" value="192" />
-          <entry key="py" value="27531" />
+          <entry key="py" value="27872" />
           <entry key="python_to_database" value="11" />
           <entry key="txt" value="60" />
           <entry key="秋招总结" value="742" />
@@ -77,32 +75,32 @@
         <counts>
           <entry key="Markdown" value="1797" />
           <entry key="PLAIN_TEXT" value="560" />
-          <entry key="Python" value="28883" />
+          <entry key="Python" value="29224" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bi_shi/jing_dong.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="9" selection-end-column="18" />
               <folding>
-                <marker date="1566658451514" expanded="true" signature="560:665" ph="..." />
-                <marker date="1566658451514" expanded="true" signature="1958:2629" ph="..." />
+                <marker date="1566701737519" expanded="true" signature="859:964" ph="..." />
+                <marker date="1566701737519" expanded="true" signature="2257:2928" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <first_editor relative-caret-position="330">
+                <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -162,8 +160,8 @@
         <option value="$PROJECT_DIR$/bi_shi/wang_yi.py" />
         <option value="$PROJECT_DIR$/bi_shi/360.py" />
         <option value="$PROJECT_DIR$/bi_shi/自我介绍" />
-        <option value="$PROJECT_DIR$/bi_shi/jing_dong.py" />
         <option value="$PROJECT_DIR$/bi_shi/秋招总结" />
+        <option value="$PROJECT_DIR$/bi_shi/jing_dong.py" />
       </list>
     </option>
   </component>
@@ -740,24 +738,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bi_shi/jing_dong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <marker date="1566658451514" expanded="true" signature="560:665" ph="..." />
-            <marker date="1566658451514" expanded="true" signature="1958:2629" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <first_editor relative-caret-position="330">
+            <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/jing_dong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <marker date="1566701737519" expanded="true" signature="859:964" ph="..." />
+            <marker date="1566701737519" expanded="true" signature="2257:2928" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

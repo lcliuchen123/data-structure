@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bi_shi/sql学习" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lian_xi/print_str_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bi_shi/jing_dong.py" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/jing_dong.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
           <entry key="hard_problem" value="2" />
           <entry key="ipynb" value="3" />
           <entry key="md" value="4" />
-          <entry key="py" value="36" />
+          <entry key="py" value="37" />
           <entry key="python_to_database" value="1" />
           <entry key="sql学习" value="1" />
           <entry key="秋招总结" value="2" />
@@ -57,7 +56,7 @@
           <entry key="IPNB" value="3" />
           <entry key="Markdown" value="13" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="36" />
+          <entry key="Python" value="37" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -68,7 +67,7 @@
           <entry key="dummy" value="20" />
           <entry key="hard_problem" value="47" />
           <entry key="md" value="192" />
-          <entry key="py" value="27873" />
+          <entry key="py" value="28235" />
           <entry key="python_to_database" value="11" />
           <entry key="sql学习" value="2437" />
           <entry key="txt" value="60" />
@@ -80,7 +79,7 @@
         <counts>
           <entry key="Markdown" value="1797" />
           <entry key="PLAIN_TEXT" value="560" />
-          <entry key="Python" value="29225" />
+          <entry key="Python" value="29587" />
           <entry key="SQL" value="2437" />
         </counts>
       </usages-collector>
@@ -101,11 +100,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bi_shi/sql学习">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
+            <state relative-caret-position="569">
               <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lian_xi/print_str_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <marker date="1566748131063" expanded="true" signature="144:149" ph="..." />
+                <marker date="1566748131063" expanded="true" signature="195:200" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,6 +190,7 @@
         <option value="$PROJECT_DIR$/bi_shi/秋招总结" />
         <option value="$PROJECT_DIR$/bi_shi/jing_dong.py" />
         <option value="$PROJECT_DIR$/bi_shi/sql学习" />
+        <option value="$PROJECT_DIR$/lian_xi/print_str_list.py" />
       </list>
     </option>
   </component>
@@ -206,7 +219,7 @@
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
-              <item name="bi_shi" type="462c0819:PsiDirectoryNode" />
+              <item name="lian_xi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jing_dong">
+  <component name="RunManager" selected="Python.print_str_list">
     <configuration name="360" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,7 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="print_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="print_str_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,11 +344,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lian_xi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\root\PycharmProjects\ML\lian_xi\print_matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lian_xi/print_str_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,19 +358,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.print_matrix" />
       <item itemvalue="Python.number" />
       <item itemvalue="Python.max_str_length" />
       <item itemvalue="Python.360" />
       <item itemvalue="Python.jing_dong" />
+      <item itemvalue="Python.print_str_list" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.print_str_list" />
         <item itemvalue="Python.jing_dong" />
         <item itemvalue="Python.360" />
         <item itemvalue="Python.max_str_length" />
         <item itemvalue="Python.number" />
-        <item itemvalue="Python.print_matrix" />
       </list>
     </recent_temporary>
   </component>
@@ -469,10 +482,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11904762" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11904762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -777,8 +790,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bi_shi/sql学习">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
+        <state relative-caret-position="569">
           <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lian_xi/print_str_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <marker date="1566748131063" expanded="true" signature="144:149" ph="..." />
+            <marker date="1566748131063" expanded="true" signature="195:200" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

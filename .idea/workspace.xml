@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python教程/面向对象python/封装.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python教程/面向对象python/继承.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bi_shi/数据结构/二叉树" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lian_xi/二叉搜索树转双向链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lian_xi/众数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/shun_feng.py" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/shun_feng.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/秋招总结" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/秋招总结" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,45 +51,47 @@
           <entry key="csdn" value="6" />
           <entry key="hard_problem" value="2" />
           <entry key="ipynb" value="3" />
-          <entry key="md" value="5" />
-          <entry key="py" value="42" />
+          <entry key="md" value="6" />
+          <entry key="py" value="52" />
           <entry key="pyi" value="1" />
           <entry key="python_to_database" value="2" />
-          <entry key="sql学习" value="1" />
-          <entry key="秋招总结" value="2" />
+          <entry key="sql学习" value="2" />
+          <entry key="二叉树" value="1" />
+          <entry key="秋招总结" value="3" />
           <entry key="自我介绍" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="3" />
-          <entry key="Markdown" value="15" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="42" />
+          <entry key="Markdown" value="17" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="52" />
           <entry key="PythonStub" value="1" />
-          <entry key="SQL" value="1" />
+          <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1598" />
+          <entry key="Python Console" value="1727" />
           <entry key="csdn" value="852" />
           <entry key="dummy" value="26" />
           <entry key="hard_problem" value="47" />
-          <entry key="md" value="236" />
-          <entry key="py" value="31394" />
+          <entry key="md" value="285" />
+          <entry key="py" value="33275" />
           <entry key="python_to_database" value="11" />
           <entry key="sql学习" value="2437" />
           <entry key="txt" value="60" />
-          <entry key="秋招总结" value="1171" />
+          <entry key="二叉树" value="174" />
+          <entry key="秋招总结" value="1185" />
           <entry key="自我介绍" value="433" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2270" />
-          <entry key="PLAIN_TEXT" value="566" />
-          <entry key="Python" value="32992" />
+          <entry key="Markdown" value="2333" />
+          <entry key="PLAIN_TEXT" value="740" />
+          <entry key="Python" value="35002" />
           <entry key="SQL" value="2437" />
         </counts>
       </usages-collector>
@@ -94,32 +100,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python教程/面向对象python/封装.py">
+        <entry file="file://$PROJECT_DIR$/bi_shi/sql学习">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="420">
+              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bi_shi/数据结构/二叉树">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lian_xi/二叉搜索树转双向链表.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
               <folding>
-                <marker date="1567133479495" expanded="true" signature="99:104" ph="..." />
-                <marker date="1567133479495" expanded="true" signature="140:175" ph="..." />
-                <marker date="1567133479495" expanded="true" signature="799:804" ph="..." />
+                <marker date="1567166581428" expanded="true" signature="135:220" ph="..." />
+                <marker date="1567166581428" expanded="true" signature="280:281" ph="..." />
+                <marker date="1567166581428" expanded="true" signature="280:358" ph="..." />
+                <marker date="1567166581428" expanded="true" signature="709:1092" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="104">
+                <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python教程/面向对象python/继承.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-              <folding>
-                <marker date="1567137797218" expanded="true" signature="74:79" ph="..." />
-                <marker date="1567137797218" expanded="true" signature="267:300" ph="..." />
-                <marker date="1567137797218" expanded="true" signature="361:463" ph="..." />
-                <marker date="1567137797218" expanded="true" signature="773:778" ph="..." />
-                <marker date="1567137797218" expanded="true" signature="824:829" ph="..." />
-                <marker date="1567137797218" expanded="true" signature="878:883" ph="..." />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="104">
+                <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -178,18 +210,21 @@
         <option value="$PROJECT_DIR$/bi_shi/自我介绍" />
         <option value="$PROJECT_DIR$/bi_shi/sql学习" />
         <option value="$PROJECT_DIR$/lian_xi/print_str_list.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/bi_shi/didi.py" />
         <option value="$PROJECT_DIR$/bi_shi/jing_dong.py" />
-        <option value="$PROJECT_DIR$/bi_shi/秋招总结" />
         <option value="$PROJECT_DIR$/bi_shi/tong_cheng.py" />
-        <option value="$PROJECT_DIR$/bi_shi/shun_feng.py" />
         <option value="$PROJECT_DIR$/python教程/面向对象python/first_day.py" />
         <option value="$PROJECT_DIR$/python教程/面向对象python/继承.py" />
+        <option value="$PROJECT_DIR$/lian_xi/众数.py" />
+        <option value="$PROJECT_DIR$/bi_shi/shun_feng.py" />
+        <option value="$PROJECT_DIR$/bi_shi/数据结构/二叉树" />
+        <option value="$PROJECT_DIR$/bi_shi/秋招总结" />
+        <option value="$PROJECT_DIR$/lian_xi/二叉搜索树转双向链表.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2" />
     <option name="y" value="11" />
     <option name="width" value="1346" />
@@ -209,11 +244,6 @@
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML" type="462c0819:PsiDirectoryNode" />
-              <item name="bi_shi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
@@ -257,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.继承">
+  <component name="RunManager" selected="Python.二叉搜索树转双向链表">
     <configuration name="继承" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,7 +309,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="didi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="众数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,11 +317,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bi_shi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lian_xi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bi_shi/didi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lian_xi/众数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="二叉搜索树转双向链表" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lian_xi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lian_xi/二叉搜索树转双向链表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,27 +364,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\root\PycharmProjects\ML\python教程\面向对象python\封装.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="shun_feng" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bi_shi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bi_shi/shun_feng.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -364,19 +394,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.didi" />
-      <item itemvalue="Python.shun_feng" />
       <item itemvalue="Python.tong_cheng" />
       <item itemvalue="Python.first_day" />
       <item itemvalue="Python.继承" />
+      <item itemvalue="Python.众数" />
+      <item itemvalue="Python.二叉搜索树转双向链表" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.二叉搜索树转双向链表" />
+        <item itemvalue="Python.众数" />
         <item itemvalue="Python.继承" />
         <item itemvalue="Python.first_day" />
         <item itemvalue="Python.tong_cheng" />
-        <item itemvalue="Python.shun_feng" />
-        <item itemvalue="Python.didi" />
       </list>
     </recent_temporary>
   </component>
@@ -488,15 +518,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11904762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11904762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.42692938" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.42692938" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -555,13 +585,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wei_operation.py" />
-    <entry file="file://$PROJECT_DIR$/lian_xi/cengci_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lian_xi/Priotity_queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
@@ -573,13 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lian_xi/reverse_linklist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -595,20 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lian_xi/HFMAN_TREE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="130" column="27" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lian_xi/hfman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3445">
-          <caret line="133" column="35" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -670,13 +672,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hard_problem" />
-    <entry file="file://$PROJECT_DIR$/lian_xi/max_str_length.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lian_xi/number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -745,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bi_shi/sql学习">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bi_shi/didi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -770,16 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bi_shi/tong_cheng.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -788,23 +766,6 @@
             <marker date="1567098761309" expanded="true" signature="140:145" ph="..." />
             <marker date="1567098761309" expanded="true" signature="158:163" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bi_shi/shun_feng.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -830,8 +791,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python教程/面向对象python/继承.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
           <folding>
             <marker date="1567137797218" expanded="true" signature="74:79" ph="..." />
             <marker date="1567137797218" expanded="true" signature="267:300" ph="..." />
@@ -840,6 +801,123 @@
             <marker date="1567137797218" expanded="true" signature="824:829" ph="..." />
             <marker date="1567137797218" expanded="true" signature="878:883" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/py36/Lib/collections/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="544" lean-forward="true" selection-start-line="544" selection-end-line="544" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lian_xi/众数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1739">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <folding>
+            <marker date="1567157446694" expanded="true" signature="623:1073" ph="..." />
+            <marker date="1567157446694" expanded="true" signature="1171:1390" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lian_xi/hfman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="133" column="35" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lian_xi/HFMAN_TREE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1883">
+          <caret line="130" column="27" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lian_xi/max_str_length.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lian_xi/reverse_linklist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lian_xi/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-511">
+          <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lian_xi/cengci_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="150" column="23" lean-forward="true" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/shun_feng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#238#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/数据结构/二叉树">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lian_xi/二叉搜索树转双向链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding>
+            <marker date="1567166581428" expanded="true" signature="135:220" ph="..." />
+            <marker date="1567166581428" expanded="true" signature="280:281" ph="..." />
+            <marker date="1567166581428" expanded="true" signature="280:358" ph="..." />
+            <marker date="1567166581428" expanded="true" signature="709:1092" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="104">
+            <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/sql学习">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="104">
+            <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

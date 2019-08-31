@@ -52,3 +52,6 @@ alter table table_name engine=innodb; --删除大量数据后，回收空间
 4、group by会默认排序，显示的包含一个order by对实际性能并没有太大影响。order by null可以取消排序
 5、子查询的效率不如关联查询（join）
 6、or的各个字段分别查询，然后进行union操作。对复合索引做or操作不会用到索引。
+7、mysql和oracel的between and 都包括边界值
+8、hive sql：select … from … where … group by … having … order by …
+执行顺序：from … where … select … group by … having … order by …

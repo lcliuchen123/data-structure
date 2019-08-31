@@ -1,0 +1,116 @@
+
+
+--第一题：输出各个渠道的新增用户人均观看次数和变化情况
+--输出三列，第一列是频道，第二列是人均观看次数，第三列是变化情况
+--date:20180710,new_date:2018-07-10
+--报错，困惑点：7月10日还是11日的人均观看次数，还有就是date？？？？？？？？？？？
+select
+      f.channel,
+      e.avg_vv as avg_vv,
+      f.diff as diff
+from
+(
+    select
+        c.channel as channel,
+        c.avg_vv as vv,
+        if(d.avg_vv,round(c.avg_vv/d.avg_vv-1,4),1) as diff
+    from
+    (
+        select
+            round((1.000*count(a.vid))/(count(distinct a.uid)),4) as avg_vv,
+            b.channel_type as channel
+        from user_video a
+        join new_user_info b
+        on a.uid = b.uid
+        and a.date = substr(b.new_date,1,4) || substr(b.new_date,6,2) || substr(b.new_date,9,2)
+        where a.date = '20180711'
+        group by b.channel_type
+    ) c
+    left join
+    (
+        select
+             round((1.0000*count(a.vid))/(count(distinct a.uid)),2) as avg_vv,
+             b.channel_type as channel
+        from user_video a
+        join new_user_info b
+        on a.uid = b.uid
+        and a.date = substr(b.new_date,1,4) || substr(b.new_date,6,2) || substr(b.new_date,9,2)
+        where a.date = '20180710'
+        group by b.channel_type
+    ) d
+    on c.channel = d.channel
+    group by c.channel
+) f
+join
+(
+    select
+         b.channel_type as channel,
+         count(a.vid)*1.0000/count(b.uid) as avg_vv
+    from user_video a
+    join new_user_info b
+    on a.uid = b.uid
+    and a.date = substr(b.new_date,1,4) || substr(b.new_date,6,2) || substr(b.new_date,9,2)
+    where a.date = '20180710' or a.date = '20180711'
+    group by b.channel_type
+) e
+on f.channel = e.channel
+
+
+--第二题正确答案
+select uid
+from user_info
+where gender='女' and age<='25'
+and uid in
+(select uid from user_video
+where date >='20190801' and date<= '20190807' and tag=='美食'
+group by uid
+having count(uid)>10)
+and uid in
+(select uid from user_video
+where date=='20190808' and tag=='美食'
+group by uid
+having count(uid)<3)
+
+
+--第二题，漏了tag美食
+select c.uid
+from
+    (
+        select a.uid,count(a.vid) as number
+        from user_video a
+        join user_info b
+        on a.uid = b.uid
+        where a.date between '20190801' and '20190807'
+        and b.age <= 25
+        and a.tag="美食"
+        group by a.uid
+    ) c
+    join
+    (
+        select e.uid,count(e.vid) as number
+        from user_video e
+        join user_info f
+        on e.uid = f.uid
+        where e.date = '20190808'
+        and f.age <= 25
+        and a.tag="美食"
+        group by e.uid
+    )d
+    on c.uid = d.uid
+where c.number > 10 and d.number < 3
+
+
+--360笔试
+1.英语老师看你老是在英语课上和周围同学交头接耳，
+所以给你布置了一份额外的家庭作业来惩罚惩罚你：
+你有一个字符串s，请你在s的所有子串中，
+找到出现次数最多的子串，告诉老师它的出现次数。
+
+
+2.饭后散步是一个很好的习惯，一天晚上，小A在一条笔直的路上散步，起点在路上某处，
+但是因为路上没有标识，他并不知道这个位于路上的那个位置，现在将道路划分为N-1个等距的部分，
+你可以把这条路当成一个数轴，道路上的结点标记为1~N，起点和终点只可能是这N个点中的一个。
+但是小A还提供了一个重要信息，他每隔一段时间就会用手机看一下自己走了多远，
+记作D，但是他并不记得他是朝着哪个方向走的，唯一可以确定的是，在两次看手机的间隔中他不会改变方向，
+每次看完手机后他可能继续向前或者回头走。那么问题来了，已知他在散步过程中始终在1~N的范围内，
+那么符合上述条件的终点可能有多少个呢？

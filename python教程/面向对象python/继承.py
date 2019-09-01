@@ -13,6 +13,9 @@ class Animal():
     def sleep(self):
         print("animal sleep")
 
+    # def __str__(self):
+    #     return "hello animal"
+
 
 class Dog(Animal):
     def drink(self):
@@ -37,8 +40,9 @@ class XiaoTian(Dog):
 # xiao.drink()
 # xiao.bar()
 # xiao.fly()
-
+print(Animal) # <class '__main__.Animal'>
 animal = Animal()
+print(animal)
 animal.drink()# animal drink
 print(animal)
 animal = Dog()

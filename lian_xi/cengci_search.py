@@ -25,7 +25,7 @@ def  cengci_search(root):
     pnode_list.append(root)
     while len(pnode_list)>0:
         current_val=[] #存放当前节点值
-        current_node_list=[] #存放当前节点值
+        current_node_list=[] #存放当前节点
         for node in pnode_list:
             current_val.append(node.val)
             if node.left and node.left.val is not None:

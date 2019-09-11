@@ -29,7 +29,30 @@ def get_vector(n,m):
 
     return p
 
-line = input()
-n , m = [int(x) for x in line.split()]
-p = get_vector(n,m)
-print("%.4f" % p)
+# line = input()
+# n , m = [int(x) for x in line.split()]
+# p = get_vector(n,m)
+# print("%.4f" % p)
+
+
+if __name__ == "__main__":
+    rb = input().strip().split()
+    r = int(rb[0]) + 1 #红球
+    b = int(rb[1]) + 1 #篮球
+
+    rr = max(r, 2)
+    bb = max(b, 3)
+    dp = [bb * [0] for i in range(rr)]
+
+    for i in range(r):
+        dp[i][1] = i / (i + 1)
+    dp[1][2] = 1 / 3
+    for i in range(2, r):
+        dp[i][2] = i / (2 + i) + (2 / ((2 + i) * (1 + i)))
+
+    for i in range(r):
+        for j in range(3, b):
+            dp[i][j] = i / (i + j) + (j / (i + j)) * ((j - 1) / (i + j - 1)) * (
+                        (i / (i + j - 2)) * dp[i - 1][j - 2] + ((j - 2) / (i + j - 2)) * dp[i][j - 3])
+
+    print("%.5f" % dp[r - 1][b - 1])

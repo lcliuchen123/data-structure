@@ -1,44 +1,47 @@
-#
-# def get_min(s):
-#     index = s.index('0')
-#     count = 0
-#     for i in range(index,len(s)):
-#         if s[i] == ')':
-#             count += 1
-#
-#         if s[i] == '(':
-#             break
-#     return count
-#
-# def get_min2(s):
-#     ind = s.index('0')
-#     count = 0
-#     for i in range(ind):
-#         if s[i] == '(':
-#             count += 1
-#
-#         if s[i] == ')':
-#             count -= 1
-#
-#     return count
-#
-# s = '(()((0)()))'
-# print(get_min2(s))
-#
-# def get_max_score(boxes):
-#     # count = len(boxes)
-#     # d = {}
-#     # while count >0:
-#     #     for i in boxes:
-#     #         if i
-#
-#     from collections import Counter
-#     d = Counter(boxes)
-#     score = 0
-#     for k,v in d.items():
-#         score += v*v
-#     return score
-#
+
+# 1，
+def get_min(s):
+    index = s.index('0')
+    count = 0
+    for i in range(index,len(s)):
+        if s[i] == ')':
+            count += 1
+
+        if s[i] == '(':
+            break
+    return count
+
+def get_min2(s):
+    ind = s.index('0')
+    count = 0
+    for i in range(ind):
+        if s[i] == '(':
+            count += 1
+
+        if s[i] == ')':
+            count -= 1
+
+    return count
+
+s = '(()((0)()))'
+print(get_min2(s))
+
+
+# 2.0-1指派
+def get_max_score(boxes):
+    # count = len(boxes)
+    # d = {}
+    # while count >0:
+    #     for i in boxes:
+    #         if i
+
+    from collections import Counter
+    d = Counter(boxes)
+    score = 0
+    for k,v in d.items():
+        score += v*v
+    return score
+
 # boxes = [1 ,4, 2, 2, 3, 3, 2, 4, 1]
 # print(get_max_score(boxes))
 

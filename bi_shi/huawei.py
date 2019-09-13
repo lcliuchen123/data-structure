@@ -1,4 +1,5 @@
 
+# 编程1
 def get_sequence(a,b,r):
     result = []
     for i in a:
@@ -30,6 +31,7 @@ def get_sequence(a,b,r):
 # (1, 2)(3, 4)(5, 6)
 
 
+# 编程2
 def is_eff(c):
     if (c >= 'a' and c <= 'z') or \
             (c >= 'A' and c <= 'Z') \
@@ -66,7 +68,7 @@ for i in range(length - 1, -1, -1):
 print(ans)
 
 
-# 机票调整
+#3. 机票调整
 n = int(input())
 before = []
 result = []

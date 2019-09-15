@@ -93,7 +93,7 @@ n,m = int(a[0]),int(a[1])
 f(n,m)
 
 
-# 第三题
+# 第三题,梯度更新溢出
 import numpy as np
 
 def loss_fun(label,theta,train):

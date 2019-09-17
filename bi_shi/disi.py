@@ -37,12 +37,13 @@ for i in range(100):
 
 for i in range(100):  #二个平方数由两个一个平方数组成，三个平方数由一个平方数和一个由两个平数数组成
     if s[i]==1:
+        print("i: ", i)
         for j in range(1,100):
             if i + j >= 100:
                 break
-            print("i: ", i)
+            # 重点，不断更新，选择最小的（还有点困惑）？？？？？？？？？？
             if s[i+j]>s[j]+1:
                 s[i+j]=s[j]+1
-            print("j：",s[i+j])
+        print("j：",s)
 
 print(s)

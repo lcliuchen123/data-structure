@@ -1,6 +1,6 @@
 一、java
 1.java的类型转换：自动类型转换（低级到高级）和强制类型转换（高级到低级）。
-从低到高：byte ，short, char -- int -- long -- float -- double
+从低到高：byte ，short, char -- int -- long -- float -- double -- boolean
 2.异常处理机制
 解释：java程序运行时，常常会出现错误或者异常，比如死循环。
 error类，exception类

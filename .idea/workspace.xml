@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian_shi/大数据分析工程师" beforeDir="false" afterPath="$PROJECT_DIR$/mian_shi/大数据分析工程师" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/sql学习" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/sql学习" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/秋招总结" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/秋招总结" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +20,7 @@
     <session id="755838995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.117" value="1" />
@@ -33,7 +35,7 @@
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="2" />
-          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.35" value="3" />
           <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="2" />
@@ -43,10 +45,10 @@
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.45" value="2" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.open.time.48" value="3" />
+          <entry key="project.open.time.48" value="4" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="42" />
+          <entry key="project.opened" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -58,7 +60,7 @@
           <entry key="py" value="108" />
           <entry key="pyi" value="1" />
           <entry key="python_to_database" value="2" />
-          <entry key="sql学习" value="5" />
+          <entry key="sql学习" value="6" />
           <entry key="xin_lang" value="2" />
           <entry key="二叉树" value="3" />
           <entry key="大数据分析工程师" value="1" />
@@ -66,7 +68,7 @@
           <entry key="深度学习" value="2" />
           <entry key="用户流失" value="2" />
           <entry key="秋招总结" value="10" />
-          <entry key="自我介绍" value="2" />
+          <entry key="自我介绍" value="3" />
           <entry key="进程_线程和协程" value="3" />
           <entry key="高频考点" value="1" />
         </counts>
@@ -75,10 +77,10 @@
         <counts>
           <entry key="IPNB" value="3" />
           <entry key="Markdown" value="31" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="PLAIN_TEXT" value="18" />
           <entry key="Python" value="108" />
           <entry key="PythonStub" value="1" />
-          <entry key="SQL" value="7" />
+          <entry key="SQL" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -90,14 +92,14 @@
           <entry key="md" value="1115" />
           <entry key="py" value="48940" />
           <entry key="python_to_database" value="11" />
-          <entry key="sql学习" value="2850" />
+          <entry key="sql学习" value="3688" />
           <entry key="txt" value="60" />
           <entry key="xin_lang" value="275" />
           <entry key="二叉树" value="174" />
           <entry key="大数据分析工程师" value="3501" />
-          <entry key="深度学习" value="777" />
+          <entry key="深度学习" value="1201" />
           <entry key="用户流失" value="237" />
-          <entry key="秋招总结" value="2954" />
+          <entry key="秋招总结" value="3280" />
           <entry key="自我介绍" value="433" />
           <entry key="进程_线程和协程" value="445" />
           <entry key="高频考点" value="42" />
@@ -105,10 +107,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="4932" />
-          <entry key="PLAIN_TEXT" value="5742" />
+          <entry key="Markdown" value="5258" />
+          <entry key="PLAIN_TEXT" value="6166" />
           <entry key="Python" value="51970" />
-          <entry key="SQL" value="3125" />
+          <entry key="SQL" value="3963" />
         </counts>
       </usages-collector>
     </session>
@@ -122,8 +124,8 @@
         <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="184">
-                <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+              <first_editor relative-caret-position="664">
+                <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -134,25 +136,43 @@
         <entry file="file://$PROJECT_DIR$/bi_shi/disi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1380">
-              <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mian_shi/大数据分析工程师">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="118" column="15" lean-forward="true" selection-end-line="139" />
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mian_shi/大数据分析工程师">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3090">
+              <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bi_shi/sql学习">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bi_shi/自我介绍">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/深度学习">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="-347">
+              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -249,7 +269,6 @@
         <option value="$PROJECT_DIR$/bi_shi/zhao_yin.py" />
         <option value="$PROJECT_DIR$/lian_xi/fan_zhuan.py" />
         <option value="$PROJECT_DIR$/bi_shi/xie_cheng.py" />
-        <option value="$PROJECT_DIR$/bi_shi/sql学习" />
         <option value="$PROJECT_DIR$/bi_shi/sougou.py" />
         <option value="$PROJECT_DIR$/bi_shi/aiqiyi'.py" />
         <option value="$PROJECT_DIR$/bi_shi/图的遍历.py" />
@@ -268,15 +287,16 @@
         <option value="$PROJECT_DIR$/python教程/进程_线程和协程" />
         <option value="$PROJECT_DIR$/bi_shi/shuju_wajue.py" />
         <option value="$PROJECT_DIR$/python教程/高频考点" />
-        <option value="$PROJECT_DIR$/bi_shi/秋招总结" />
-        <option value="$PROJECT_DIR$/深度学习" />
         <option value="$PROJECT_DIR$/用户流失" />
         <option value="$PROJECT_DIR$/bi_shi/disi.py" />
         <option value="$PROJECT_DIR$/mian_shi/大数据分析工程师" />
+        <option value="$PROJECT_DIR$/bi_shi/sql学习" />
+        <option value="$PROJECT_DIR$/bi_shi/秋招总结" />
+        <option value="$PROJECT_DIR$/深度学习" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2" />
     <option name="y" value="11" />
     <option name="width" value="1346" />
@@ -297,11 +317,6 @@
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML" type="462c0819:PsiDirectoryNode" />
-              <item name="bi_shi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
@@ -702,10 +717,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.11532738" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.11160714" />
       <window_info id="Structure" order="1" sideWeight="0.5027322" side_tool="true" weight="0.11904762" />
       <window_info id="Favorites" order="2" sideWeight="0.5027322" side_tool="true" weight="0.11904762" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -716,7 +730,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30377668" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30377668" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.44663382" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.318555" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -838,13 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bi_shi/自我介绍">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bi_shi/xie_cheng.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -870,13 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bi_shi/sql学习">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
@@ -1047,10 +1047,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/深度学习">
+    <entry file="file://$PROJECT_DIR$/bi_shi/disi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="1380">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mian_shi/大数据分析工程师">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3090">
+          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/自我介绍">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1078,27 +1092,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bi_shi/disi.py">
+    <entry file="file://$PROJECT_DIR$/bi_shi/sql学习">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="-270">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="184">
-            <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <first_editor relative-caret-position="664">
+            <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mian_shi/大数据分析工程师">
+    <entry file="file://$PROJECT_DIR$/深度学习">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="118" column="15" lean-forward="true" selection-end-line="139" />
+        <state relative-caret-position="-347">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
         </state>
       </provider>
     </entry>

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lian_xi/jia_jian.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mian_shi/字节跳动数据分析" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bi_shi/秋招总结" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/秋招总结" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mian_shi/字节跳动数据分析" beforeDir="false" afterPath="$PROJECT_DIR$/mian_shi/字节跳动数据分析" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +51,7 @@
           <entry key="csdn" value="6" />
           <entry key="hard_problem" value="2" />
           <entry key="ipynb" value="3" />
-          <entry key="md" value="14" />
+          <entry key="md" value="15" />
           <entry key="py" value="113" />
           <entry key="pyi" value="1" />
           <entry key="python_to_database" value="2" />
@@ -63,11 +59,11 @@
           <entry key="xin_lang" value="2" />
           <entry key="二叉树" value="3" />
           <entry key="大数据分析工程师" value="1" />
-          <entry key="字节跳动数据分析" value="1" />
+          <entry key="字节跳动数据分析" value="2" />
           <entry key="排序算法" value="1" />
           <entry key="深度学习" value="3" />
           <entry key="用户流失" value="2" />
-          <entry key="秋招总结" value="12" />
+          <entry key="秋招总结" value="13" />
           <entry key="自我介绍" value="3" />
           <entry key="进程_线程和协程" value="3" />
           <entry key="高频考点" value="1" />
@@ -76,8 +72,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="3" />
-          <entry key="Markdown" value="34" />
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="Markdown" value="36" />
+          <entry key="PLAIN_TEXT" value="21" />
           <entry key="Python" value="113" />
           <entry key="PythonStub" value="1" />
           <entry key="SQL" value="8" />
@@ -97,10 +93,10 @@
           <entry key="xin_lang" value="275" />
           <entry key="二叉树" value="174" />
           <entry key="大数据分析工程师" value="3501" />
-          <entry key="字节跳动数据分析" value="57" />
+          <entry key="字节跳动数据分析" value="842" />
           <entry key="深度学习" value="1731" />
           <entry key="用户流失" value="237" />
-          <entry key="秋招总结" value="3395" />
+          <entry key="秋招总结" value="3423" />
           <entry key="自我介绍" value="433" />
           <entry key="进程_线程和协程" value="445" />
           <entry key="高频考点" value="42" />
@@ -108,8 +104,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="5408" />
-          <entry key="PLAIN_TEXT" value="6753" />
+          <entry key="Markdown" value="5436" />
+          <entry key="PLAIN_TEXT" value="7538" />
           <entry key="Python" value="53372" />
           <entry key="SQL" value="3963" />
         </counts>
@@ -122,40 +118,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/深度学习">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="959">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lian_xi/wei_operation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mian_shi/字节跳动数据分析">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="244">
-                <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="300">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -164,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="364">
+              <first_editor relative-caret-position="724">
                 <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
               </first_editor>
               <second_editor />
@@ -172,11 +138,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lian_xi/jia_jian.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="2100">
+                <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -266,8 +235,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lian_xi/jia_jian.py" />
         <option value="$PROJECT_DIR$/深度学习" />
-        <option value="$PROJECT_DIR$/bi_shi/秋招总结" />
         <option value="$PROJECT_DIR$/mian_shi/字节跳动数据分析" />
+        <option value="$PROJECT_DIR$/bi_shi/秋招总结" />
       </list>
     </option>
   </component>
@@ -291,6 +260,11 @@
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="bi_shi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
@@ -722,7 +696,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30377668" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31527093" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.44663382" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.318555" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -1060,13 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lian_xi/jia_jian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/深度学习">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="959">
@@ -1081,30 +1048,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="244">
-            <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/lian_xi/jia_jian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mian_shi/字节跳动数据分析">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="364">
+          <first_editor relative-caret-position="724">
             <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mian_shi/字节跳动数据分析">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+    <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2100">
+            <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

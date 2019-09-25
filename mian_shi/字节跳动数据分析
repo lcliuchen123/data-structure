@@ -5,3 +5,25 @@
     3. 首先选取的聚类指标：用户所在地区，行业类别，充值时间，已消耗金额，充值金额，充值时长，上线时间。
        利用K均值聚类将退款用户分为5类，然后选取退款金额和上线时间进行加权求和，对每类退款客户进行定级。
        计算未退款用户跟每个用户之间的距离，选择距离近的交给退款挽回系统。
+
+拼多多：
+    sql查询每个用户的最长连续登录天数：
+    思路：如果是连续的日期，每个diff都会出现。
+    计算每个日期与所有日期天数的差距。如果不是连续的日期就不会出现。
+    最长连续登陆天数可以有间断，比较每个间断最长的。
+        with t as
+        (
+            select uid,logdate,
+            (dateadd(dd,-row_number() over(partation by uid order by logdate),logdate)) as diff //核心
+            from table
+        );
+        with m as
+        (
+            select uid,min(logdate) as start_day, max(logdate) as end_day,
+            datediff(dd,min(logdate),max(logdate)+1) as diff
+            from t
+            group by uid,diff
+        );
+        select a.uid as uid,a.logdays as max_days
+        from m a
+        where a.logdays in (select max(b.logdays) from m b where a.uid = b.uid)

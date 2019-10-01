@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bi_shi/拼多多sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lian_xi/矩阵中的路径.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bi_shi/秋招总结" beforeDir="false" afterPath="$PROJECT_DIR$/bi_shi/秋招总结" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian_shi/字节跳动数据分析" beforeDir="false" afterPath="$PROJECT_DIR$/mian_shi/实习总结" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/用户流失" beforeDir="false" afterPath="$PROJECT_DIR$/用户流失" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +17,7 @@
     <session id="755838995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.117" value="1" />
@@ -36,17 +35,18 @@
           <entry key="project.open.time.35" value="5" />
           <entry key="project.open.time.36" value="3" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="4" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.42" value="4" />
-          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.43" value="3" />
           <entry key="project.open.time.45" value="2" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.48" value="4" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="51" />
+          <entry key="project.opened" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,18 +55,18 @@
           <entry key="hard_problem" value="2" />
           <entry key="ipynb" value="3" />
           <entry key="md" value="15" />
-          <entry key="py" value="114" />
+          <entry key="py" value="115" />
           <entry key="pyi" value="1" />
           <entry key="python_to_database" value="2" />
           <entry key="sql学习" value="6" />
           <entry key="xin_lang" value="2" />
           <entry key="二叉树" value="3" />
-          <entry key="大数据分析工程师" value="1" />
+          <entry key="大数据分析工程师" value="2" />
           <entry key="字节跳动数据分析" value="2" />
           <entry key="拼多多sql" value="1" />
           <entry key="排序算法" value="1" />
           <entry key="深度学习" value="3" />
-          <entry key="用户流失" value="2" />
+          <entry key="用户流失" value="3" />
           <entry key="秋招总结" value="13" />
           <entry key="自我介绍" value="3" />
           <entry key="进程_线程和协程" value="3" />
@@ -77,8 +77,8 @@
         <counts>
           <entry key="IPNB" value="3" />
           <entry key="Markdown" value="36" />
-          <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="114" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Python" value="115" />
           <entry key="PythonStub" value="1" />
           <entry key="SQL" value="8" />
         </counts>
@@ -89,8 +89,8 @@
           <entry key="csdn" value="852" />
           <entry key="dummy" value="26" />
           <entry key="hard_problem" value="47" />
-          <entry key="md" value="1214" />
-          <entry key="py" value="50233" />
+          <entry key="md" value="1237" />
+          <entry key="py" value="50673" />
           <entry key="python_to_database" value="11" />
           <entry key="sql学习" value="3688" />
           <entry key="txt" value="60" />
@@ -98,10 +98,10 @@
           <entry key="二叉树" value="174" />
           <entry key="大数据分析工程师" value="3501" />
           <entry key="字节跳动数据分析" value="842" />
-          <entry key="实习总结" value="645" />
+          <entry key="实习总结" value="695" />
           <entry key="拼多多sql" value="1" />
           <entry key="深度学习" value="1731" />
-          <entry key="用户流失" value="237" />
+          <entry key="用户流失" value="707" />
           <entry key="秋招总结" value="3641" />
           <entry key="自我介绍" value="433" />
           <entry key="进程_线程和协程" value="445" />
@@ -110,9 +110,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="5718" />
-          <entry key="PLAIN_TEXT" value="8184" />
-          <entry key="Python" value="53374" />
+          <entry key="Markdown" value="5741" />
+          <entry key="PLAIN_TEXT" value="8704" />
+          <entry key="Python" value="53814" />
           <entry key="SQL" value="3963" />
         </counts>
       </usages-collector>
@@ -123,11 +123,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mian_shi/实习总结">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+            <state relative-caret-position="990">
+              <caret line="33" column="101" lean-forward="true" selection-start-line="33" selection-start-column="101" selection-end-line="33" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mian_shi/大数据分析工程师">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-865">
+              <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/用户流失">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lian_xi/矩阵中的路径.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -141,12 +168,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="220">
-                <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+              <first_editor relative-caret-position="544">
+                <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -157,8 +184,8 @@
         <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="250">
-                <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+              <first_editor relative-caret-position="324">
+                <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -201,7 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bi_shi/jing_dong.py" />
         <option value="$PROJECT_DIR$/bi_shi/tong_cheng.py" />
         <option value="$PROJECT_DIR$/python教程/面向对象python/first_day.py" />
         <option value="$PROJECT_DIR$/lian_xi/众数.py" />
@@ -239,7 +265,6 @@
         <option value="$PROJECT_DIR$/python教程/进程_线程和协程" />
         <option value="$PROJECT_DIR$/bi_shi/shuju_wajue.py" />
         <option value="$PROJECT_DIR$/python教程/高频考点" />
-        <option value="$PROJECT_DIR$/用户流失" />
         <option value="$PROJECT_DIR$/bi_shi/disi.py" />
         <option value="$PROJECT_DIR$/mian_shi/大数据分析工程师" />
         <option value="$PROJECT_DIR$/bi_shi/sql学习" />
@@ -248,9 +273,11 @@
         <option value="$PROJECT_DIR$/深度学习" />
         <option value="$PROJECT_DIR$/mian_shi/字节跳动数据分析" />
         <option value="$PROJECT_DIR$/lian_xi/jia_jian.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/bi_shi/拼多多sql" />
         <option value="$PROJECT_DIR$/bi_shi/秋招总结" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/用户流失" />
+        <option value="$PROJECT_DIR$/lian_xi/矩阵中的路径.py" />
         <option value="$PROJECT_DIR$/mian_shi/实习总结" />
       </list>
     </option>
@@ -279,7 +306,7 @@
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
-              <item name="bi_shi" type="462c0819:PsiDirectoryNode" />
+              <item name="lian_xi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kunlun">
+  <component name="RunManager" selected="Python.矩阵中的路径">
     <configuration name="最小拼接数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,6 +355,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lian_xi/最小拼接数字.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="矩阵中的路径" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lian_xi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lian_xi/矩阵中的路径.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -525,27 +573,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reverse_linklist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lian_xi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lian_xi/reverse_linklist.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="shuju_wajue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -568,19 +595,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.reverse_linklist" />
       <item itemvalue="Python.最小拼接数字" />
       <item itemvalue="Python.shuju_wajue" />
       <item itemvalue="Python.disi" />
       <item itemvalue="Python.kunlun" />
+      <item itemvalue="Python.矩阵中的路径" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.矩阵中的路径" />
         <item itemvalue="Python.kunlun" />
         <item itemvalue="Python.disi" />
         <item itemvalue="Python.shuju_wajue" />
         <item itemvalue="Python.最小拼接数字" />
-        <item itemvalue="Python.reverse_linklist" />
       </list>
     </recent_temporary>
   </component>
@@ -695,18 +722,18 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.10193452" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.10193452" />
       <window_info id="Structure" order="1" sideWeight="0.5027322" side_tool="true" weight="0.11904762" />
       <window_info id="Favorites" order="2" sideWeight="0.5027322" side_tool="true" weight="0.11904762" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" weight="0.44663382" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" weight="0.26929393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2857143" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2857143" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.44663382" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.318555" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -737,13 +764,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lian_xi/print_matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lian_xi/number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -995,13 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mian_shi/大数据分析工程师">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3090">
-          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bi_shi/sql学习">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1013,13 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/用户流失">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1058,6 +1064,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="324">
+            <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mian_shi/大数据分析工程师">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-865">
+          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用户流失">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mian_shi/实习总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="33" column="101" lean-forward="true" selection-start-line="33" selection-start-column="101" selection-end-line="33" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lian_xi/矩阵中的路径.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bi_shi/拼多多sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1068,27 +1112,10 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <first_editor relative-caret-position="544">
+            <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bi_shi/秋招总结">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="250">
-            <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mian_shi/实习总结">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,10 @@
 
+
+# 整数越界问题
+# 整数的取值范围:-2147483648~2147483647.
+# 0x7fffffff:2147483647;    0X80000000:2147483648
+
+
 # 链接：https://www.nowcoder.com/questionTerminal/59ac416b4b944300b617d4f7f111b215?f=discussion
 # 来源：牛客网
 

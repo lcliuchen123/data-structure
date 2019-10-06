@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lian_xi/二叉树的下一个节点.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lian_xi/jia_jian.py" beforeDir="false" afterPath="$PROJECT_DIR$/lian_xi/jia_jian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/commit.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +93,7 @@
           <entry key="md" value="1413" />
           <entry key="py" value="51244" />
           <entry key="python_to_database" value="11" />
+          <entry key="sh" value="1" />
           <entry key="sql学习" value="3688" />
           <entry key="txt" value="60" />
           <entry key="xin_lang" value="275" />
@@ -115,7 +113,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="5917" />
-          <entry key="PLAIN_TEXT" value="8704" />
+          <entry key="PLAIN_TEXT" value="8705" />
           <entry key="Python" value="54484" />
           <entry key="SQL" value="3963" />
         </counts>
@@ -139,8 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/commit.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="60">
+              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -204,7 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bi_shi/shun_feng.py" />
         <option value="$PROJECT_DIR$/lian_xi/二叉搜索树转双向链表.py" />
         <option value="$PROJECT_DIR$/lian_xi/xuan_liang_hao.py" />
         <option value="$PROJECT_DIR$/bi_shi/xin_lang" />
@@ -255,6 +252,7 @@
         <option value="$PROJECT_DIR$/lian_xi/二叉树的下一个节点.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lian_xi/jia_jian.py" />
+        <option value="$PROJECT_DIR$/commit.sh" />
       </list>
     </option>
   </component>
@@ -1109,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commit.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="60">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>

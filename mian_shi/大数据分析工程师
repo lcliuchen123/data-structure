@@ -1,0 +1,139 @@
+一、java
+1.java的类型转换：自动类型转换（低级到高级）和强制类型转换（高级到低级）。
+从低到高：byte ，short, char -- int -- long -- float -- double -- boolean
+2.异常处理机制
+解释：java程序运行时，常常会出现错误或者异常，比如死循环。
+error类，exception类
+try, catch, throw,  throws, finally
+try{
+throw
+}
+catch{
+find exception ,hand of
+}
+finally{
+must br run
+}
+不能单独使用，finally里面的代码必须执行
+3.封装，继承，多态
+多态：一个接口，多种方法。运行过程中决定调用那个函数。
+封装、继承的目的是代码重用，多态的目的是接口重用。
+4.java的反射机制：
+    在运行过程中，动态调用对象的属性和方法。
+    注意事项：
+        1.性能第一 jvm无法优化这些代码。
+        2.安全限制
+        3.内部暴露
+    应用场景：
+        1.工厂模式
+        2.数据库连接
+        3.分析类文件
+        4.访问不能访问的属性和变量
+5.类的初始化
+先初始化父类，在初始化语句。
+
+二、Scala 待学习
+
+三、SQL（结构化查询语言）
+1.sql通用，简单易学，虽然简单，但是可以完成一些复杂和高级的操作。
+2.如何理解数据库和表？
+数据库相当于文件块，是通过DBMS创建和操纵的容器。
+把相关的资料放入特定的文件中，称作表。
+3，创建表
+create table products
+(
+    pro_id int primiary key AUTO_INCREMENT comment 'id',
+    vend_id int not null comment '',
+    produc_name VARCHAR(128) COMMENT '',
+    price decimal（8,2） comment '价格'，#8表示整数部分加小数部分长度不能超过8位，小数部分2位。
+    create_time datetime default current_timestamp comment '创建时间',
+    update_time datetime comment '更新时间'
+);
+alter table table_name drop column column_name
+alter table table_name add column column_name
+case when then else end
+重命名列名：alter table name change column name varchar(100)
+重命名表名：rename table_name people to new_name
+
+三、hive
+1.什么是hive？
+hive是一款开源的基于Hadoop的用于统计海量结构化数据的一个数据仓库，定义了类sql查询语言，HQL。
+本质上讲hive是将HQL语句转换成MapReduce的一个工具。
+
+2.什么是数据仓库？
+数据库是按照数据结构来组织、存储
+数据仓库是一个面向主题的，集成的，相对稳定的，反映历史变化的数据集合。用于支持管理决策。
+
+3.简单说下MapReduce？
+一个计算框架，能够容易的编写应用程序，这些程序能够运行在大规模集群上，并以一种可靠地，具有容错能力的
+的方式并行处理TB以上的海量数据集。
+主要思想就是分而治之，mapper负责分，把复杂任务分解成若干个简单的简单的任务；
+reducer人负责对map阶段的结果进行汇总。
+
+4.hive的作用
+  1.可以将结构化的数据文件映射成一张表，并提供类sql查询功能，方便非java开发人员进行操作。
+  2.可以对数据提取转化加载（ETL)。
+  3.构建数据仓库。
+5.hive的使用场景
+  1.即席查询：利用CLI和Hue之类的工具，可以对hive的数据做即席查询。
+  2.离线数据分析：通过脚本执行HQL语句。
+  3.构建数据仓库时用于组织管理数据库和表。
+
+架构：
+6.hive的构成部分
+  1.用户接口层：CLI（命令行模式）,JDBC/ODBC和WUI。
+  CLI最常用，启动的时候会启动一个hive副本。
+  JDBC/ODBC是hive的客户端，用户通过客户端连接到hive server。
+  客户端模式需要指出hive server所在节点，在该节点启动hive server。
+  WUI是通过浏览器访问hive。
+  2.元数据存储
+  元数据包括Database，表名，存储空间，分区、表数据所在目录等。
+  存储位置：RDSMS.（mysql、derby)
+  三种连接模式：内嵌式元存储服务，本地元存储服务器和远程元存储服务器。
+  3.Driver（Compiler/Optimizer/Executor)
+  Driver完成HQL查询语句的词法分析，语法分析，编译，优化以及查询计划的生成。
+  生成的查询计划存储在HDFS上，并由MapReduce调用执行。
+
+7.
+
+四、数据倾斜
+1.什么是数据倾斜？
+    数据分布不均匀，即大量相同的key被分到相同的分区中。造成了部分节点堵塞，忙得忙死，闲的闲死。
+
+2.为什么会产生数据倾斜？
+    数据分布不均匀，大部分倾斜的原因都在shuffle（数据从map端传到reduce端：分区，排序，合并）这个过程。
+
+    1.读入数据的时候就是倾斜的，如读取id分布跨度较大的mysql数据、partition分配不均的kafka数据或不可分割的压缩文件。
+    2.shuffle产生倾斜，如sql语句：group by,join,count(distinct)这些都会引发shuffle。
+    3.过滤导致倾斜，数据本身平衡，经过一系列操作时倾斜。
+
+3.解决数据倾斜的方法？
+    1.尽量保证数据源均匀。
+    2.对大数据集过滤后，进行repartition.
+    3.优化sql代码
+    先group by再count替代count（distinct)
+    对于分布不均匀的数据单独计算，比如推广活动造成部分城市订单量猛增，单独计算这些城市的数据。
+
+    网易：
+    1.skewTune： 监测每个map的执行时间，将耗时较长的分配到其他节点。
+    2.skewReduce :用户可以自定义分区函数，优化数据分区。
+    3.LIBRA:随机部分map任务，估计数据分布，采用不同的分区。map阶段
+    4.LEEN: 按照频率和分布的均匀程度，重新设计key. shuffle阶段
+
+4.实际中如何检测是否数据倾斜并采取合理的解决方法？
+    1.某个reduce task，卡在99.9%半天不动。
+    2.任务超时被杀掉。
+    3.如果某个reduce的时间比其他reduce时间长的多。
+
+五、MapReduce的执行过程
+    1.输入HDFS中的数据块（BLOCK)，利用job描述计算maptask的数量。
+    2.数据切片（只是对单一数据进行切片，对每个单一的文件进行切片），输入键值对，利用map()方法，进行逻辑运算。
+    3.进入shuffle阶段，利用key进行分区排序，传递给reducer.
+    4.归并排序，相同的k一组，调用reduce()方法进行逻辑运算
+    额外信息：
+    排序是Hadoop的灵魂。
+    1.Hadoop的四大组件：HDFS,MapReduce,YARN,common(底层支撑组件)
+    2.map，reduce，Driver负责提交job对象。shuffle是map的输出到reduce的输入过程中进行的分区，排序。
+    3.map端输入键值对，输出键值对，不断地进行分区，排序，最终合并成一个大文件，传递给Reduce端。
+
+为什么key-value的查询时间是O（1）？

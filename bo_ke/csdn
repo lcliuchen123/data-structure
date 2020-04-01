@@ -1,0 +1,339 @@
+@[TOC](Python3.7连接mysql，presto，hive)
+
+&#160; &#160; &#160; &#160;初入职场，公司数据都是利用FreeIPA部署的Hadoop集群，第一天入职，运维大哥就给讲了一堆FreeIPA，主从，Hadoop什么的一堆，一脸懵逼（菜是原罪）。今天主要分享下利用jupyter notebook（python3.7）连接数据库遇到的一些坑。
+# Python3.7连接mysql
+连接mysql比较顺利，没遇到任何坑，代码如下：
+```python3
+import pymysql
+import pandas as pd
+# 连接mysql
+conn = pymysql.connect(host='你的主机名', user='用户名',password='密码',
+                       database='数据库名称',charset="utf8")
+sql_1 = "select * from table_name limit 10"
+#利用pandas直接获取数据
+data = pd.read_sql(sql_1, conn)
+conn.close()
+```
+
+# Python3.7连接presto
+&#160; &#160; &#160; &#160;连接presto同样很顺利，没有遇到什么坑，代码如下：
+```python3
+from pyhive import presto
+conn = presto.connect('xxx.com', port=端口号).cursor()
+conn.execute("select * from tabele_name limit 10")
+for result in conn.fetchall():
+    print(result)
+```
+# Python3.7使用impyla连接hive
+&#160; &#160; &#160; &#160;presto其实查询还是挺快的，
+但是公司资源有限，改用hive连接了，这里有个细节就是
+**from pyhive import hive**会报错,
+参考大神们的博客得知需要pip install pyhive[hive] 。
+本来以为连接hive一样会很顺利，但是连接过程中遇到**一些坑**，
+连接的核心代码如下：
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# hive util with hive server2namenode02.xxx.co
+from impala.dbapi import connect
+class HiveClient:
+    def __init__(self, db_host, port, authMechanism, user, password, database, kbservice):
+        self.conn = connect(host=db_host,
+                            port=port,
+                            auth_mechanism=authMechanism,
+                            user=user,
+                            password=password,
+                            database=database,
+                            kerberos_service_name=kbservice
+                            )
+
+    def query(self, sql):
+        with self.conn.cursor() as cursor:
+            cursor.execute(sql)
+            return cursor.fetchall()
+
+    def query_one(self, sql):
+        with self.conn.cursor() as cursor:
+            cursor.execute(sql)
+            return cursor.fetchone()
+
+    def execute(self, sql):
+        with self.conn.cursor() as cursor:
+            cursor.execute(sql)
+
+    def cursor(self):
+        return self.conn.cursor
+
+    def close(self):
+        self.conn.close()
+
+
+def get_hive_client():
+    return HiveClient(db_host='主机名', 
+    port=10000, 
+    authMechanism='GSSAPI',
+    user='用户名', password='密码',
+    database='数据库名', kbservice='hive')
+```
+
+&#160; &#160; &#160; &#160;核心代码看着很简单也很容易理解，但是一运行坑就出来了，下来一一介绍遇到的坑：
+
+### 坑1：安装包时候遇到的一堆坑
+&#160; &#160; &#160; &#160;**from impala.dbapi import connect**提示找不到模块
+
+&#160; &#160; &#160; &#160;安装包的时候参考
+[Win7平台Python3使用impyla连接Hive遇到的坑](https://blog.csdn.net/Xiblade/article/details/82318294)
+，特别要注意安装包的顺序和对应的版本。
+### 坑2：Kerberos认证
+&#160; &#160; &#160; &#160;Kerberos认证参考[Windows本地安装配置Kerberos客户端](https://cloud.tencent.com/developer/article/1380570)，
+这里有个坑就是本地安装Kerbos需要把配置文件放在三个目录下，
+>`·目录一：C:\ProgramData\MIT\Kerberos5\krb5.ini`
+
+>`·目录二：C:\Windows\krb5.ini`
+
+>`·目录三：C:\Program Files\MIT\Kerberos\krb5.ini`
+
+&#160; &#160; &#160; &#160;另外本地进行认证
+需要把获取的krb5.ini文件中部分内容注释掉，如下所示
+```buildoutcfg
+# udp_preference_limit = 0
+# default_ccache_name = FILE://tmp/krb5cc_%{uid}
+```
+### 坑3：认证成功后连接hive
+&#160; &#160; &#160; &#160;一般都是利用jupyter notebook的web页面访问hive，这时候需要在服务器上进行
+kerberos认证，notebook的创建新文件的new选项下面就有Terminal选项，
+就可以进入服务器进行kerberos认证。其实连接时输入的用户名跟密码
+是可以省略的，因为主要是利用生成的keytab来建立连接。
+
+### 后记：
+&#160; &#160; &#160; &#160;第一次利用python3.7
+使用impyla连接hive，参考了许多大神的博客，在这里就不一一列举了。
+
+
+
+
+
+ 1. **全新的界面设计** ，将会带来全新的写作体验；
+ 2. 在创作中心设置你喜爱的代码高亮样式，Markdown **将代码片显示选择的高亮样式** 进行展示；
+ 3. 增加了 **图片拖拽** 功能，你可以将本地的图片直接拖拽到编辑区域直接展示；
+ 4. 全新的 **KaTeX数学公式** 语法；
+ 5. 增加了支持**甘特图的mermaid语法[^1]** 功能；
+ 6. 增加了 **多屏幕编辑** Markdown文章功能；
+ 7. 增加了 **焦点写作模式、预览模式、简洁写作模式、左右区域同步滚轮设置** 等功能，功能按钮位于编辑区域与预览区域中间；
+ 8. 增加了 **检查列表** 功能。
+ [^1]: [mermaid语法说明](https://mermaidjs.github.io/)
+
+## 功能快捷键
+
+撤销：<kbd>Ctrl/Command</kbd> + <kbd>Z</kbd>
+重做：<kbd>Ctrl/Command</kbd> + <kbd>Y</kbd>
+加粗：<kbd>Ctrl/Command</kbd> + <kbd>B</kbd>
+斜体：<kbd>Ctrl/Command</kbd> + <kbd>I</kbd>
+标题：<kbd>Ctrl/Command</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>
+无序列表：<kbd>Ctrl/Command</kbd> + <kbd>Shift</kbd> + <kbd>U</kbd>
+有序列表：<kbd>Ctrl/Command</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>
+检查列表：<kbd>Ctrl/Command</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>
+插入代码：<kbd>Ctrl/Command</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+插入链接：<kbd>Ctrl/Command</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd>
+插入图片：<kbd>Ctrl/Command</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd>
+
+
+## 合理的创建标题，有助于目录的生成
+
+直接输入1次<kbd>#</kbd>，并按下<kbd>space</kbd>后，将生成1级标题。
+输入2次<kbd>#</kbd>，并按下<kbd>space</kbd>后，将生成2级标题。
+以此类推，我们支持6级标题。有助于使用`TOC`语法后生成一个完美的目录。
+
+
+
+## 如何改变文本的样式
+
+*强调文本* _强调文本_
+
+**加粗文本** __加粗文本__
+
+==标记文本==
+
+~~删除文本~~
+
+> 引用文本
+
+H~2~O is是液体。
+
+2^10^ 运算结果是 1024.
+
+>参考链接: 
+&#160; &#160; &#160; &#160;[FreeIPA主从+HDP3.0.0安装配置](https://blog.csdn.net/luoyoumou/article/details/81253845)
+&#160; &#160; &#160; &#160;[Win7平台Python3使用impyla连接Hive遇到的坑](https://blog.csdn.net/Xiblade/article/details/82318294)
+&#160; &#160; &#160; &#160;[Windows本地安装配置Kerberos客户端](https://cloud.tencent.com/developer/article/1380570)
+
+图片: ![Alt](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw==)
+
+带尺寸的图片: ![Alt](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw== =30x30)
+
+居中的图片: ![Alt](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw==#pic_center)
+
+居中并且带尺寸的图片: ![Alt](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw==#pic_center =30x30)
+
+当然，我们为了让用户更加便捷，我们增加了图片拖拽功能。
+
+
+## 如何插入一段漂亮的代码片
+
+去[博客设置](https://mp.csdn.net/configure)页面，选择一款你喜欢的代码片高亮样式，下面展示同样高亮的 `代码片`.
+```javascript
+// An highlighted block
+var foo = 'bar';
+```
+
+
+## 生成一个适合你的列表
+
+- 项目
+  - 项目
+    - 项目
+
+1. 项目1
+2. 项目2
+3. 项目3
+
+- [ ] 计划任务
+- [x] 完成任务
+
+
+## 创建一个表格
+一个简单的表格是这么创建的：
+项目     | Value
+-------- | -----
+电脑  | $1600
+手机  | $12
+导管  | $1
+
+### 设定内容居中、居左、居右
+使用`:---------:`居中
+使用`:----------`居左
+使用`----------:`居右
+| 第一列       | 第二列         | 第三列        |
+|:-----------:| -------------:|:-------------|
+| 第一列文本居中 | 第二列文本居右  | 第三列文本居左 | 
+
+
+### SmartyPants
+SmartyPants将ASCII标点字符转换为“智能”印刷标点HTML实体。例如：
+|    TYPE   |ASCII                          |HTML                         
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
+
+## 创建一个自定义列表
+Markdown
+:  Text-to-HTML conversion tool
+
+Authors
+:  John
+:  Luke
+
+
+## 如何创建一个注脚
+
+一个具有注脚的文本。[^2]
+
+[^2]: 注脚的解释
+
+
+##  注释也是必不可少的
+
+Markdown将文本转换为 HTML。
+
+*[HTML]:   超文本标记语言
+
+
+## KaTeX数学公式
+
+您可以使用渲染LaTeX数学表达式 [KaTeX](https://khan.github.io/KaTeX/):
+
+Gamma公式展示 $\Gamma(n) = (n-1)!\quad\forall
+n\in\mathbb N$ 是通过欧拉积分
+
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
+
+> 你可以找到更多关于的信息 **LaTeX** 数学表达式[here][1].
+
+
+## 新的甘特图功能，丰富你的文章
+
+```mermaid
+gantt
+        dateFormat  YYYY-MM-DD
+        title Adding GANTT diagram functionality to mermaid
+        section 现有任务
+        已完成               :done,    des1, 2014-01-06,2014-01-08
+        进行中               :active,  des2, 2014-01-09, 3d
+        计划一               :         des3, after des2, 5d
+        计划二               :         des4, after des3, 5d
+```
+- 关于 **甘特图** 语法，参考 [这儿][2],
+
+## UML 图表
+
+可以使用UML图表进行渲染。 [Mermaid](https://mermaidjs.github.io/). 例如下面产生的一个序列图：:
+
+```mermaid
+sequenceDiagram
+张三 ->> 李四: 你好！李四, 最近怎么样?
+李四-->>王五: 你最近怎么样，王五？
+李四--x 张三: 我很好，谢谢!
+李四-x 王五: 我很好，谢谢!
+Note right of 王五: 李四想了很长时间, 文字太长了<br/>不适合放在一行.
+
+李四-->>张三: 打量着王五...
+张三->>王五: 很好... 王五, 你怎么样?
+```
+
+这将产生一个流程图。:
+
+```mermaid
+graph LR
+A[长方形] -- 链接 --> B((圆))
+A --> C(圆角长方形)
+B --> D{菱形}
+C --> D
+```
+
+- 关于 **Mermaid** 语法，参考 [这儿][3],
+
+## FLowchart流程图
+
+我们依旧会支持flowchart的流程图：
+```mermaid
+flowchat
+st=>start: 开始
+e=>end: 结束
+op=>operation: 我的操作
+cond=>condition: 确认？
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+- 关于 **Flowchart流程图** 语法，参考 [这儿][4].
+
+
+## 导出与导入
+
+###  导出
+如果你想尝试使用此编辑器, 你可以在此篇文章任意编辑。当你完成了一篇文章的写作, 在上方工具栏找到 **文章导出** ，生成一个.md文件或者.html文件进行本地保存。
+
+### 导入
+如果你想加载一篇你写过的.md文件，在上方工具栏可以选择导入功能进行对应扩展名的文件导入，
+继续你的创作。
+
+ [1]: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
+ [2]: https://mermaidjs.github.io/
+ [3]: https://mermaidjs.github.io/
+ [4]: http://adrai.github.io/flowchart.js/

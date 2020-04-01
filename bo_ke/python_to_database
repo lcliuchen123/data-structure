@@ -1,0 +1,114 @@
+@[TOC](Python3.7连接mysql，presto，hive)
+
+&#160; &#160; &#160; &#160;初入职场，公司数据都是利用FreeIPA部署的Hadoop集群，第一天入职，运维大哥就给讲了一堆FreeIPA，主从，Hadoop什么的一堆，一脸懵逼（菜是原罪）。今天主要分享下利用jupyter notebook（python3.7）连接数据库遇到的一些坑。
+# Python3.7连接mysql
+连接mysql比较顺利，没遇到任何坑，代码如下：
+```python3
+import pymysql
+import pandas as pd
+# 连接mysql
+conn = pymysql.connect(host='你的主机名', user='用户名',password='密码',
+                       database='数据库名称',charset="utf8")
+sql_1 = "select * from table_name limit 10"
+#利用pandas直接获取数据
+data = pd.read_sql(sql_1, conn)
+conn.close()
+```
+
+# Python3.7连接presto
+&#160; &#160; &#160; &#160;连接presto同样很顺利，没有遇到什么坑，代码如下：
+```python3
+from pyhive import presto
+conn = presto.connect('xxx.com', port=端口号).cursor()
+conn.execute("select * from tabele_name limit 10")
+for result in conn.fetchall():
+    print(result)
+```
+# Python3.7使用impyla连接hive
+&#160; &#160; &#160; &#160;presto其实查询还是挺快的，
+但是公司资源有限，改用hive连接了，这里有个细节就是
+**from pyhive import hive**会报错,
+参考大神们的博客得知需要**pip install pyhive[hive]** 。
+本来以为连接hive一样会很顺利，但是连接过程中遇到**一些坑**，
+连接的核心代码如下：
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# hive util with hive server2namenode02.xxx.co
+from impala.dbapi import connect
+class HiveClient:
+    def __init__(self, db_host, port, authMechanism, user, password, database, kbservice):
+        self.conn = connect(host=db_host,
+                            port=port,
+                            auth_mechanism=authMechanism,
+                            user=user,
+                            password=password,
+                            database=database,
+                            kerberos_service_name=kbservice
+                            )
+
+    def query(self, sql):
+        with self.conn.cursor() as cursor:
+            cursor.execute(sql)
+            return cursor.fetchall()
+
+    def query_one(self, sql):
+        with self.conn.cursor() as cursor:
+            cursor.execute(sql)
+            return cursor.fetchone()
+
+    def execute(self, sql):
+        with self.conn.cursor() as cursor:
+            cursor.execute(sql)
+
+    def cursor(self):
+        return self.conn.cursor
+
+    def close(self):
+        self.conn.close()
+
+
+def get_hive_client():
+    return HiveClient(db_host='主机名', 
+    port=10000, 
+    authMechanism='GSSAPI',
+    user='用户名', password='密码',
+    database='数据库名', kbservice='hive')
+```
+
+&#160; &#160; &#160; &#160;核心代码看着很简单也很容易理解，但是一运行坑就出来了，下来一一介绍遇到的坑：
+
+### 坑1：安装包时候遇到的一堆坑
+&#160; &#160; &#160; &#160;**from impala.dbapi import connect**提示找不到模块
+
+&#160; &#160; &#160; &#160;安装包的时候参考
+[Win7平台Python3使用impyla连接Hive遇到的坑](https://blog.csdn.net/Xiblade/article/details/82318294)
+，特别要注意安装包的顺序和对应的版本。
+### 坑2：Kerberos认证
+&#160; &#160; &#160; &#160;Kerberos认证参考[Windows本地安装配置Kerberos客户端](https://cloud.tencent.com/developer/article/1380570)，
+这里有个坑就是本地安装Kerbos需要把配置文件放在三个目录下，
+>`·目录一：C:\ProgramData\MIT\Kerberos5\krb5.ini`
+
+>`·目录二：C:\Windows\krb5.ini`
+
+>`·目录三：C:\Program Files\MIT\Kerberos\krb5.ini`
+
+&#160; &#160; &#160; &#160;另外本地进行认证
+需要把获取的krb5.ini文件中部分内容注释掉，如下所示
+```buildoutcfg
+# udp_preference_limit = 0
+# default_ccache_name = FILE://tmp/krb5cc_%{uid}
+```
+### 坑3：认证成功后连接hive
+&#160; &#160; &#160; &#160;一般都是利用jupyter notebook的web页面访问hive，这时候需要在服务器上进行
+kerberos认证，notebook的创建新文件的new选项下面就有Terminal选项，
+就可以进入服务器进行kerberos认证。其实连接时输入的用户名跟密码
+是可以省略的，因为主要是利用生成的keytab来建立连接。
+
+### 参考链接: 
+
+&#160; &#160; &#160; &#160;第一次利用python3.7使用impyla连接hive，参考了许多大神的博客，在这里就不一一列举了。
+
+&#160; &#160; &#160; &#160;[FreeIPA主从+HDP3.0.0安装配置](https://blog.csdn.net/luoyoumou/article/details/81253845)
+&#160; &#160; &#160; &#160;[Win7平台Python3使用impyla连接Hive遇到的坑](https://blog.csdn.net/Xiblade/article/details/82318294)
+&#160; &#160; &#160; &#160;[Windows本地安装配置Kerberos客户端](https://cloud.tencent.com/developer/article/1380570)

@@ -1,0 +1,123 @@
+--mysql
+
+show status like 'uptime[服务器工作时间]/slow_queries/connections[试图连接服务器查询的次数]'；
+--log-slow-queries[=file_name]
+show processlist； --查看当前进行的线程
+explain select * from table --分析sql语句
+explain extended select * from table --分析sql语句
+show warnings; --展示优化后的sql语句
+show profile --查询每一个步骤消耗的时间
+trace --分析优化器如何选择执行计划
+
+索引(PRIMARY、UNIQUE和INDEX)
+mysql索引：聚簇索引和非聚簇索引（类似于字典的拼音索引和偏旁索引）
+一、mysql使用索引的经典场景：
+1.匹配全值，即对索引中所有列都指定具体值。
+2.匹配值的范围查询，对索引的值能够进行范围查找。
+3.匹配最左前缀，即col1+col2+col3的索引，只能用col1,col1+col2,col1+col2+col3的等值查询得到。
+4.仅对索引进行查询
+5.匹配列前缀，仅仅使用索引中第一列，并且只包含索引的第一列的开头一部分进行查找，即like 'abcd%'.
+6.能够实现索引匹配部分精确而其它部分进行范围匹配。?????????
+7.如果列名是索引，使用column_name is null 就会调用索引。
+二、存在索引但是不能使用索引的经典场景（explain的参数key为null时，表明没有使用索引.)
+1.因为B-Tree索引的结构，所以like '%abc%'不会调用索引。
+2.数据类型出现隐式转换的时候也不使用索引，字符串类型常量一定要加引号才能使用索引。
+3.复合索引不满足最左原则，不会使用复合索引的。
+4.如果mysql估计使用索引比全表扫描更慢，则不使用索引。即查询时筛选性越高越容易用到索引，越低越不容易使用索引。
+5.用or分隔开的条件，如果前面的条件有索引，而后面的没有，那么涉及的索引都不会被用到。
+三、查看索引使用情况
+show status like 'Handler_read%';
+handeler_read_key的值表明一个行被索引值读的次数，如果太低表明增加索引对性能并没有改善。
+handler_read_rnd_next表明在数据文件中读下一行的请求数，值高意味着查询运行低效。
+四、两个简单实用的优化sql的方法
+    1.analyze/check table table_name --检查分析表
+    2.optimize table table_name --优化表，optimize可以合并空间碎片，消除由于删除或者更新而造成的空间浪费。
+    --空间碎片产生的原因：删除，更新记录的时候有些空间并没有被系统回收利用。
+show table status like 'table_name';
+alter table table_name engine=innodb; --删除大量数据后，回收空间
+五、常用sql的优化
+1、大批量插入数据时的优化
+    1.1 MyISAM: alter table table_name disable keys;load data infile file_name into table table_name;alter table table_name enable keys;
+        INNODB:按照主键顺序保存，如果插入按照主键顺序排列的文件，耗时会很少。
+    1.2 导入数据前，执行set unique_checks=0,关闭唯一性校验；结束后恢复set unique_checks=1 可以提高效率。
+    1.3 导入前设置set autocommit=0，关闭自动提交；导入后set autocommit=1，打开自动提交。
+2、优化insert语句 insert into table_name (column_name,,,) values(value,,,)
+    2.1对同一个主键来说，尽量插入多个值表，比分开insert插入效率高
+    2.2 对不同的主键来说，insert delayed更快。
+    2.3 将索引文件和数据文件放在不同的磁盘上。
+    2.4 使用文件插入比insert插入较快，通常使用load data infile比insert快20倍。
+3、mysql的两种排序方式：1。有序索引顺序扫描直接返回有序数据；2.对返回数据排序
+  尽量减少额外的排序，通过索引直接返回有序数据。
+  order by字段混合ASC和DSEC;用于查询的行关键字与order by不同；对不同关键字使用order by不使用索引。
+4、group by会默认排序，显示的包含一个order by对实际性能并没有太大影响。order by null可以取消排序
+5、子查询的效率不如关联查询（join）
+6、or的各个字段分别查询，然后进行union操作。对复合索引做or操作不会用到索引。
+7、mysql和oracel的between and 都包括边界值
+8、hive sql：select … from … where … group by … having … order by …
+执行顺序：from … where … select … group by … having … order by …
+9、HAVING语句的存在弥补了WHERE关键字不能与聚合函数联合使用的不足。聚合函数返回的是一个数值，where筛选
+的是一组数据，不能直接对数进行操作。
+having a > count(*) ???????????
+select max() from table ??????????
+10、rz,sz本地与服务器传输文件
+11、事务
+百度百科中解释：指作为单个逻辑工作单元执行的一系列操作，要么完全地执行，要么完全地不执行。
+简单的说，事务就是并发控制的单位，是用户定义的一个操作序列。
+而一个逻辑工作单元要成为事务，就必须满足ACID属性。
+A：原子性（Atomicity）
+    事务中的操作要么都不做，要么就全做。
+C：一致性（Consistency）
+    事务执行的结果必须是从数据库从一个一致性状态转换到另一个一致性状态。
+I：隔离性（Isolation）
+    一个事务的执行不能被其他事务干扰
+D：持久性（Durability）
+    一个事务一旦提交，它对数据库中数据的改变就应该是永久性的
+
+12、存储过程
+存储过程（Stored Procedure）是一种在数据库中存储复杂程序，以便外部程序调用的一种数据库对象。
+作用：完成特定功能的sql语句。
+位置：数据库的数据字典
+命令：create procedure 存储过程名字
+
+优点：
+    1.可以封装隐藏商业逻辑
+    2.可以接受参数，回传值
+    3.无法使用select运行
+    4.可以用作数据检验
+缺点：
+    1.往往定制于特定的数据库上，可移植性较差。
+    2.存储过程的性能调校与撰写，受限于各种数据库系统。
+
+13、 分区
+    分区是要把一个表数据拆分为若干子集合，也就是把把一个数据文件拆分到多个数据文件中，
+    然而这些文件的存放可以依托一个文件组或这多个文件组，由于多个文件组可以提高数据库的访问并发量，
+    还可以把不同的分区配置到不同的磁盘中提高效率，所以创建时建议分区跟文件组个数相同。
+
+14、group by与聚集函数
+    1. 不使用聚合函数，group by必须包含所有的查询列
+    2. 聚合函数和非聚合函数一起使用的时候必须要有group by，只是调用聚集函数查询不需要group by
+    3. group by后面只能跟非聚集函数列。
+    4. 聚集函数：对多行进行操作；非聚集函数：对单行进行操作。
+
+15、 rank() over (partation by column_name order by column_name desc) as rank; 1,1,3,4,5
+     row_number() over(partation by column_name order by column_name) as row; 1,2,3,4,5
+
+16、sql的索引
+    聚簇索引和非聚簇索引   不是特别理解
+    一个表只能有一个聚集索引，聚集索引查询速度较快。
+
+    1.聚集索引
+    2.唯一索引：可以为空值。
+    3.主键索引
+    主键索引与唯一索引的区别：主键索引不能有空值。
+
+17、 主键和外键
+    主键：是一个属性组中能够唯一标识的属性
+    外键：表的外键是另外一张表中的主键，外键可以是重复的，可以有空值，允许重合。
+
+18、索引是不是越多越好？为什么？
+    1.占用存储空间。
+    2.数据量小的表不需要建立索引。
+    3.不经常使用的列不能用作索引。
+    4.经常频繁更新的列不能设为索引，会影响插入或者更新的效率。
+    5.索引并不是一劳永逸的，需要定期整理。

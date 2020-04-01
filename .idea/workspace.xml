@@ -1,8 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="剑指offer">
+    <list default="true" id="31cd73f2-18e8-4f0f-ae78-97aa4617e649" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2019秋招/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019秋招/bi_shi/数据结构/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019秋招/python教程/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019秋招/python教程/面向对象python/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/360.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/360.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/aiqiyi'.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/aiqiyi'.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/didi.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/didi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/disi.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/disi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/huawei.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/huawei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/jing_dong.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/jing_dong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/kunlun.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/kunlun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/shuju_wajue.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/shuju_wajue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/shun_feng.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/shun_feng.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/sougou.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/sougou.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/sql学习" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/sql学习" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/teng_xun.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/teng_xun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/test_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/test_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/tong_cheng.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/tong_cheng.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/vivo.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/vivo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/wang_yi.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/wang_yi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/xie_cheng.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/xie_cheng.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/xin_lang" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/xin_lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/zhao_yin.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/zhao_yin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/依图科技.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/依图科技.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/拼多多sql" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/拼多多sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/数据结构/二叉树" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/数据结构/二叉树" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/数据结构/图的遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/数据结构/图的遍历.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/数据结构/排序算法" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/数据结构/排序算法" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/秋招总结" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/秋招总结" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bi_shi/自我介绍" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bi_shi/自我介绍" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo_ke/csdn" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bo_ke/csdn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo_ke/hard_problem" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bo_ke/hard_problem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo_ke/python_to_database" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/bo_ke/python_to_database" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/.idea/lian_xi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/.idea/lian_xi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/HFMAN_TREE.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/HFMAN_TREE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/Kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/Kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/Priotity_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/Priotity_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/cengci_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/cengci_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/fan_zhuan.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/fan_zhuan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/hfman.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/hfman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/is_binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/is_binary_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/jia_jian.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/jia_jian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/knn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/max_str_length.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/max_str_length.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/number.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/number_only_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/number_only_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/one_line.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/one_line.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/print_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/print_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/print_str_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/print_str_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/quick_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/re_expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/re_expression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/reorder_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/reorder_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/reverse_linklist.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/reverse_linklist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/wei_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/wei_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/xuan_liang_hao.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/xuan_liang_hao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/二叉搜索树转双向链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/二叉搜索树转双向链表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/二叉树的下一个节点.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/二叉树的下一个节点.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/二叉树第k小的节点.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/二叉树第k小的节点.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/众数.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/众数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/删除有序链表的重复节点.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/删除有序链表的重复节点.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/只出现一次的字符.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/只出现一次的字符.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/最小拼接数字.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/最小拼接数字.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/矩阵中的路径.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/矩阵中的路径.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/表示数值的字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/表示数值的字符串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lian_xi/连续正数序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/lian_xi/连续正数序列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mian_shi/大数据分析工程师" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/mian_shi/大数据分析工程师" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mian_shi/实习总结" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/mian_shi/实习总结" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python教程/进程_线程和协程" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/python教程/进程_线程和协程" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python教程/面向对象python/单例模式.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/python教程/面向对象python/单例模式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python教程/面向对象python/封装.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/python教程/面向对象python/封装.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python教程/面向对象python/异常.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/python教程/面向对象python/异常.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python教程/面向对象python/类方法和静态方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/python教程/面向对象python/类方法和静态方法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python教程/面向对象python/继承.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/python教程/面向对象python/继承.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python教程/高频考点" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/python教程/高频考点" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhao_pin.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/zhao_pin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/深度学习" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/用户流失" beforeDir="false" afterPath="$PROJECT_DIR$/2019秋招/用户流失" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +153,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\root\PycharmProjects\ML\bi_shi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\untitled\2020春招" />
       <recent name="C:\Users\root\PycharmProjects\ML\bi_shi\数据结构" />
       <recent name="C:\Users\root\PycharmProjects\ML\lian_xi" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\root\PycharmProjects\ML\bi_shi" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_calculator.TestCalculator">
@@ -90,6 +176,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lian_xi/最小拼接数字.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="二叉搜索树转双向链表" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lian_xi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lian_xi/二叉搜索树转双向链表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,27 +373,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="二叉搜索树转双向链表" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lian_xi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lian_xi/二叉搜索树转双向链表.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="disi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -355,7 +441,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bi_shi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019秋招/bi_shi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -489,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564312715001</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="面试准备">
+      <created>1585709336272</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585709336272</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -528,13 +621,22 @@
     <MESSAGE value="reverse_linklist" />
     <MESSAGE value="位运算" />
     <MESSAGE value="剑指offer" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer" />
+    <MESSAGE value="面试准备" />
+    <option name="LAST_COMMIT_MESSAGE" value="面试准备" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="409" y="4" key="CommitChangelistDialog2" timestamp="1585709335616">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="409" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585709335616" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585708091188">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585708091188" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1585709339911">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585709339911" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585709282448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
